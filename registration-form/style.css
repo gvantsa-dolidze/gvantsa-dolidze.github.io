@@ -1,60 +1,80 @@
 .b1 {
   background-position: center center;
-  background-image:url(cover.jpg);
-        }
-div{border: 2px solid black;
-    width:450px;
-    height:350px;
-   
-  position: absolute;
-	
-  top:0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	
-	margin: auto;
+  background-image: url(cover.jpg);
+}
 
-   
-    background-color:black;
-    opacity:0.6;
-    box-shadow:5px 5px 55px grey;
-    border-radius:25px;
-    color:white;
-    padding:15px;
-  
-    }
-h3 {text-align:center;}
-.use  {color:white;}
+div {
+  border: 2px solid black;
+  width: 450px;
+  height: 350px;
+
+  position: absolute;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+
+
+  background-color: black;
+  opacity: 0.6;
+  box-shadow: 5px 5px 55px grey;
+  border-radius: 25px;
+  color: white;
+  padding: 15px;
+
+}
+
+h3 {
+  text-align: center;
+}
+
+.use {
+  color: white;
+}
+
 input {
   width: 100%;
-       border-radius:2px;
-       }
+  border-radius: 2px;
+}
 
 #submit {
-         height:40px;
-         border-color:lightgreen;  
-         border-radius:6px;
-         background-color:lightgreen;
-         font-weight:bold;
-  
+  height: 40px;
+  border-color: lightgreen;
+  border-radius: 6px;
+  background-color: lightgreen;
+  font-weight: bold;
+
 }
-.checkbox  {
+
+.checkbox {
   width: 25px;
   height: auto;
 }
+
 label {
-    display: block;
+  display: block;
   padding-left: 15px;
   text-indent: -15px;
 }
-form{
-  position:relative;
+
+form {
+  position: relative;
 }
-.twitter {position:absolute;
-          left:160px;}
-.facebook {position:absolute;
-           left:0px;}
-.google {position:absolute;
-         left:80px;         
+
+.twitter {
+  position: absolute;
+  left: 160px;
+}
+
+.facebook {
+  position: absolute;
+  left: 0px;
+}
+
+.google {
+  position: absolute;
+  left: 80px;
 }
