@@ -49,4 +49,8 @@ nav ul {
   list-style-type: none;
   padding: 0;
 }
-img {width:15%; float:left;}
+img {width:15%; 
+  padding-left: 1em; 
+  padding-right: 1em; 
+  padding-top: 1em;
+padding-bottom: 1em;}
