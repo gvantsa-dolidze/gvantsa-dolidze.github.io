@@ -6,7 +6,7 @@ h1 {
   border: 2px solid;
   box-shadow: 5px 5px 5px #ff004d;
   text-shadow: 1px 1px 1px #ff004d;
-   
+
 }
 
 li {
@@ -15,10 +15,12 @@ li {
   margin-bottom: 15px;
   color: white;
 }
+
 li a {
   text-decoration: none;
   color: #ff004d;
 }
+
 li a:hover {
   padding: 5px;
   border: 2px solid #ff004d;
@@ -35,6 +37,7 @@ article {
   box-shadow: 5px 5px 5px #ff004d;
   float: right;
 }
+
 nav {
   float: left;
   background-color: rgba(245, 239, 242, 0.8);
@@ -45,12 +48,16 @@ nav {
   width: 250px;
   text-shadow: 1px 1px 1px #ff004d;
 }
+
 nav ul {
   list-style-type: none;
   padding: 0;
 }
-img {width:15%; 
-  padding-left: 1em; 
-  padding-right: 1em; 
+
+img {
+  width: 15%;
+  padding-left: 1em;
+  padding-right: 1em;
   padding-top: 1em;
-padding-bottom: 1em;}
+  padding-bottom: 1em;
+}
