@@ -8,24 +8,63 @@
     body {
       background-image: url(background.jpg);
       background-size: cover;
-      
+
     }
+
+    .half {
+      display: inline-block;
+      box-sizing: border-box;
+      padding: 10px;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .half {
+        box-sizing: border-box;
+        padding: 10px;
+      
+      }
+
+      .navigationstyle {
+        width: 100%;
+      }
+     
+      .pct80 {
+        width: 100%;
+      }
+    }
+
+    @media only screen and (min-width: 601px) {
+
+      .half {
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 10px;
+      }
+
+      .navigationstyle {
+        width: 20%;
+      }
+     
+      .pct80 {
+        width: 77%;
+      }
+    }
+
+
+
   </style>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div>
+  
     <h1>Coloring</h1>
-
-
-
-
-    <br><br>
+    
+    <div>
     <section>
-      <nav>
+      <nav class="half navigationstyle">
         <ul>
-          <li><a href="./movies-and-tv-series">Movies and TV Series</a></li>
+          <li><a href="./movies">Movies</a></li>
           <li><a href="./cartoons">Cartoons</a></li>
           <li><a href="./superheroes">Superheroes</a></li>
           <li><a href="./for-adults">For adults</a></li>
@@ -38,11 +77,9 @@
           <li><a href="./for-girls">For girls</a></li>
           <li><a href="./for-boys">For boys</a></li>
           <li><a href="./anime">Anime</a></li>
-
-
         </ul>
       </nav>
-      <article>
+      <article class="half pct80">
         <h2 align="center">Best Merch</h2>
         <a target="_blank" href="best-merch/1.jpg"><img src="best-merch/1.jpg"></a>
         <a target="_blank" href="best-merch/2.jpg"><img src="best-merch/2.jpg"></a>
@@ -55,9 +92,9 @@
         <a target="_blank" href="best-merch/9.jpg"><img src="best-merch/9.jpg"></a>
         <a target="_blank" href="best-merch/10.jpg"><img src="best-merch/10.jpg"></a>
         <a target="_blank" href="best-merch/11.jpg"><img src="best-merch/11.jpg"></a>
-
       </article>
     </section>
+  </div>
 
 </body>
 
