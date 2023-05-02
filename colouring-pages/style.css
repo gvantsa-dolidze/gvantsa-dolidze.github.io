@@ -35,13 +35,13 @@ article {
   width: 1130px;
   text-shadow: 1px 1px 1px #ff004d;
   box-shadow: 5px 5px 5px #ff004d;
-float: right;
-height:800px;
-  
+  float: right;
+  height: 800px;
+
 }
 
 nav {
-  float:left;
+  float: left;
   background-color: rgba(245, 239, 242, 0.8);
   padding: 30px;
   list-style-type: none;
@@ -49,7 +49,7 @@ nav {
   box-shadow: 5px 5px 5px #ff004d;
   width: 250px;
   text-shadow: 1px 1px 1px #ff004d;
-  height:800px;
+  height: 800px;
 }
 
 nav ul {
@@ -64,5 +64,4 @@ img {
   padding-top: 1em;
   padding-bottom: 1em;
 }
-
 
