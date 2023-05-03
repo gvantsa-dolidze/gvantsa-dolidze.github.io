@@ -55,13 +55,34 @@
       transform: scale(1.3);
 
     }
+    .homepage {
+      float: left;
+      border: 2px solid;
+      color: #ff004d;
+      box-shadow: 5px 5px 5px #ff004d;
+      text-shadow: 1px 1px 1px #ff004d;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-decoration: none;
+      
+    }
+
+    .homepage:hover {
+
+      border: 2px solid #ff004d;
+      color: #ff004d;
+      box-shadow: none;
+      text-shadow: none;
+
+
+    }
   </style>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <h1>Coloring</h1>
+  <h1><a href="/index.html" class="homepage">HOMEPAGE</a>Coloring</h1>
 
   <div>
     <section>
@@ -83,9 +104,9 @@
         </ul>
       </nav>
       <article class="half pct80">
-        <marquee behavior="scroll" direction="right">
+
         <h2 align="center">Best Merch</h2>
-      </marquee>
+
         <a target="_blank" href="best-merch/1.jpg"><img src="best-merch/1.jpg"></a>
         <a target="_blank" href="best-merch/2.jpg"><img src="best-merch/2.jpg"></a>
         <a target="_blank" href="best-merch/3.jpg"><img src="best-merch/3.jpg"></a>
