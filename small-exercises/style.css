@@ -1,0 +1,56 @@
+.lineargradients {
+  border: 2px solid black;
+  float:left;
+  width:33%;
+}
+
+#toright {
+  border: none;
+  height: 200px;
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet );
+}
+#default {
+  border: none;
+  height: 200px;
+  background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet );
+}
+
+#tobottomright {
+
+  border: none;
+  height: 200px;
+  background-image: linear-gradient(to bottom right, red, orange, yellow, green, blue, indigo, violet );
+}
+
+#deg180 {
+
+  border: none;
+  height: 200px;
+  background-image: linear-gradient(180deg, red, orange, yellow, green, blue, indigo, violet );
+}
+
+#deg0 {
+
+  border: none;
+  height: 200px;
+  background-image: linear-gradient(0deg, red, orange, yellow, green, blue, indigo, violet );
+}
+
+#deg90 {
+
+  border: none;
+  height: 200px;
+  background-image: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet );
+}
+
+#repeatinglineargradient {
+
+  border: none;
+  height: 200px;
+  background-image: repeating-linear-gradient(90deg, red, orange 10%, yellow 15%, green 5%, blue 5%, indigo 30%, violet 3% );
+}
+.radialgraients {
+  border: 2px solid black;
+  float:left;
+  width:33%;
+}
