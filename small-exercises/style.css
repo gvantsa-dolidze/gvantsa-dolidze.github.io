@@ -12,13 +12,12 @@ text-shadow: 3px 3px 3px white;
 
 div {
   border:hiden;
-  width: 50%;
-  height: auto;
+  width:50%;
+  height:90%;
   position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   box-shadow: 3px 3px 3px white;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 li {
