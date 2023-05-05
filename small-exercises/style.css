@@ -54,3 +54,18 @@
   float:left;
   width:33%;
 }
+
+#defaultradial {
+  height: 200px;
+  background-image: radial-gradient( red, orange, yellow, green, blue, indigo, violet );
+}
+
+#spacedcolorstops {
+  height: 200px;
+  background-image: radial-gradient( red, orange 10%, yellow 15%, green 5%, blue 5%, indigo 30%, violet 3% );
+}
+
+#setshape {
+  height:200px;
+  background-image: radial-gradient(circle, red, orange, yellow, green, blue, indigo, violet );
+}
