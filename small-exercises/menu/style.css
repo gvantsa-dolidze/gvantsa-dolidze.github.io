@@ -1,0 +1,9 @@
+body {
+  background-color: rgb(162, 168, 166);
+}
+
+.first {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+}
