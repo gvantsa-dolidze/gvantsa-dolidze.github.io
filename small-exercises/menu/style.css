@@ -4,15 +4,15 @@ body {
 
 .one {
   float: left;
-  border:hidden;
+  border: hidden;
 }
 
-.two{
-float:left;
-border:hidden;
-width:auto;
-height:auto;
-margin-left:5px;
+.two {
+  float: left;
+  border: hidden;
+  width: auto;
+  height: auto;
+  margin-left: 5px;
 
 }
 
@@ -70,7 +70,7 @@ margin-left:5px;
   height: 160px;
   border: 1px solid black;
   margin-top: 10px;
- 
+
 }
 
 .menu2 ul {
@@ -118,7 +118,7 @@ margin-left:5px;
   height: 150px;
   border: 1px solid black;
   margin-top: 10px;
- 
+
 }
 
 .menu3 {
@@ -167,4 +167,44 @@ margin-left:5px;
 
 .menu3 a {
   text-decoration: none;
+}
+
+.horizontal {
+  width: 450px;
+  height: 270px;
+  border: 1px solid black;
+}
+
+.hor {
+  list-style: none;
+  padding:1px;
+  margin: 0;
+}
+
+.hor li a {
+  text-decoration: none;
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  background-color: #d36868;
+  display: block;
+}
+
+.hor li {
+  width: 112px;
+  border: hidden;
+  float:left;
+  list-style: none;
+  
+}
+
+.hor li a:hover {
+  background-color: aqua;
+  color:rgb(255, 0, 0);
+}
+
+.hor ul {
+  visibility: hidden;
+  margin:0;
+  padding:0;
 }
