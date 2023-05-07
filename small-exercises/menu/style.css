@@ -2,9 +2,23 @@ body {
   background-color: rgb(162, 168, 166);
 }
 
+.one {
+  float: left;
+  border:hidden;
+}
+
+.two{
+float:left;
+border:hidden;
+width:auto;
+height:auto;
+margin-left:5px;
+
+}
+
 .first {
   width: 450px;
-  height: 300px;
+  height: 270px;
   border: 1px solid black;
 }
 
@@ -53,9 +67,10 @@ body {
 
 .second {
   width: 450px;
-  height: 300px;
+  height: 160px;
   border: 1px solid black;
   margin-top: 10px;
+ 
 }
 
 .menu2 ul {
@@ -78,7 +93,6 @@ body {
 
 .menu2 li a {
   text-decoration: none;
-
   color: #fff;
   background-color: #333;
   padding: 5px;
@@ -92,10 +106,65 @@ body {
   margin-left: 200px;
   padding-left: 2px;
   top: 0;
-
 }
 
 .menu2 li a:hover {
   background-color: aqua;
   color: black;
+}
+
+.third {
+  width: 450px;
+  height: 150px;
+  border: 1px solid black;
+  margin-top: 10px;
+ 
+}
+
+.menu3 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+
+}
+
+.menu3 li {
+  position: relative;
+
+}
+
+.menu3 li a {
+  text-decoration: none;
+  color: #d36868;
+  background-color: #ffffff;
+  padding: 5px;
+  display: block;
+  border-bottom: 0;
+}
+
+.menu3 li:hover ul {
+  visibility: visible;
+  width: 200px;
+  margin-left: 200px;
+  padding-left: 0;
+  top: 0;
+
+}
+
+.menu3 li a:hover {
+
+  color: rgb(185, 52, 52);
+  border-right: 3px solid #009;
+
+}
+
+.menu3 ul {
+  list-style: none;
+  visibility: hidden;
+  position: absolute;
+}
+
+.menu3 a {
+  text-decoration: none;
 }
