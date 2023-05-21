@@ -199,12 +199,19 @@ body {
 }
 
 .hor li a:hover {
-  background-color: aqua;
+  background-color: rgb(216, 212, 212);
   color:rgb(255, 0, 0);
+  
 }
 
 .hor ul {
   visibility: hidden;
   margin:0;
   padding:0;
+}
+
+.hor li:hover ul {
+  visibility: visible;
+  
+  
 }
