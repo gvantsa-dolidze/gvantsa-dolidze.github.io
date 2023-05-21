@@ -2,6 +2,25 @@ body {
   background-color: rgb(162, 168, 166);
 }
 
+.back {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color:#9e97b3;
+}
+
+.back a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.back a:hover {
+  color: white;
+  border: 1px solid white;
+}
+
 .one {
   float: left;
   border: hidden;
@@ -177,7 +196,7 @@ body {
 
 .hor {
   list-style: none;
-  padding:1px;
+  padding: 1px;
   margin: 0;
 }
 
@@ -193,25 +212,25 @@ body {
 .hor li {
   width: 112px;
   border: hidden;
-  float:left;
+  float: left;
   list-style: none;
-  
+
 }
 
 .hor li a:hover {
   background-color: rgb(216, 212, 212);
-  color:rgb(255, 0, 0);
-  
+  color: rgb(255, 0, 0);
+
 }
 
 .hor ul {
   visibility: hidden;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 .hor li:hover ul {
   visibility: visible;
-  
-  
+
+
 }
