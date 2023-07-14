@@ -3,22 +3,22 @@ body {
 }
 
 .back {
-  border: 1px solid black;
+  
   padding: 10px;
   margin-bottom: 5px;
-  background-color:#9e97b3;
+  background-color: #9e97b3;
 }
 
 .back a {
   text-decoration: none;
   color: black;
-  border: 1px solid black;
+  background-color: #d36868;
   padding: 5px;
 }
 
 .back a:hover {
   color: white;
-  border: 1px solid white;
+  background-color: #9e97b3;
 }
 
 .one {
@@ -38,7 +38,7 @@ body {
 .first {
   width: 450px;
   height: 270px;
-  border: 1px solid black;
+  
 }
 
 .menu {
@@ -87,7 +87,7 @@ body {
 .second {
   width: 450px;
   height: 160px;
-  border: 1px solid black;
+  
   margin-top: 10px;
 
 }
@@ -96,18 +96,21 @@ body {
   list-style: none;
   visibility: hidden;
   position: absolute;
+  margin:0;
+  padding:0;
+  
 }
 
 .menu2 {
   list-style: none;
   margin: 0;
   padding: 0;
-  width: 200px;
+  width:200px;
 }
 
 .menu2 li {
   position: relative;
-  margin: 2px;
+  
 }
 
 .menu2 li a {
@@ -121,21 +124,23 @@ body {
 
 .menu2 li:hover ul {
   visibility: visible;
-  width: 200px;
-  margin-left: 200px;
-  padding-left: 2px;
+ width:100px;
+  margin-left:200px;
+ padding-left: 10px;
   top: 0;
+  
 }
 
 .menu2 li a:hover {
   background-color: aqua;
   color: black;
+  
 }
 
 .third {
   width: 450px;
   height: 150px;
-  border: 1px solid black;
+  
   margin-top: 10px;
 
 }
@@ -191,7 +196,7 @@ body {
 .horizontal {
   width: 450px;
   height: 270px;
-  border: 1px solid black;
+  
 }
 
 .hor {
@@ -233,4 +238,57 @@ body {
   visibility: visible;
 
 
+}
+
+.list {
+  
+  margin-top: 10px;
+  height: 322px;
+
+}
+
+.menu1 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu1 li a {
+  text-decoration: none;
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  display: block;
+}
+
+.menu1 li {
+  width: 200px;
+  border: 1px solid #f00;
+  position:relative;
+}
+
+.menu1 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
+.menu1 li:hover ul {
+  visibility: visible;
+  margin-left: 200px;
+  top:0;
+ 
+  padding-left: 10px;
+}
+
+.menu1 li a:hover {
+  background-color: #009;
+}
+
+.three {
+  width:450px;
+  height: 200px;
+  display: inline-block;
 }
