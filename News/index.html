@@ -1,34 +1,126 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title></title>
-<style>
-  body{
-    background-color: lightgray;
-  }
-  div{
-    border:1px solid black;
-    margin:5px;
-  }
-  .header{
-    width:1080px; height:120px; margin:auto; margin-top:0;
-  }
-</style>
-  </head>
-  <body>
+
+<head>
+  <title></title>
+  <style>
+    .header{
+      width:1080px;
+    margin:auto;
+    height: 100px;
+    }
+     .body {
+      height: 800px;
+      width: 1080px;
+margin:auto;
+    }
+
+    .left {
+      float: left;
+      height: 750px;
+      width: 15%;
+
+    }
+
+    .home {
+      float: left;
+      height: 750px;
+      width: 40%;
+    }
+
+    .right {
+      float: left;
+      height: 750px;
+      width: 40%;
+
+    }
+    .horizontalmenu {
+      background-color: black;
+      height: 42px;
+      width: 1080px;
+margin:auto;
+    }
+
+    div {
+      border: 1px solid black;
+      margin: 5px;
+    }
+
+    li {
+      display: inline-block;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+      padding: 5px;
+
+    }
+
+    a:hover {
+      border-bottom: 5px solid rgb(255, 255, 255);
+    }
+
+  
+
+    .first {
+      float: left;
+    }
+
+    .signin {
+      float: right;
+    }
+    .search {
+      float: left;
+    }
+    .footer {
+      height: 50px;
+      width: 1080px;
+      margin:auto;
+    }
+
+   
+  </style>
+</head>
+
+<body>
 <div class="header">header</div>
-<div class="horizontalmenu">horizontal menu
-  <ul>
-    <li><a href="#">HOME</a></li>
-    <li><a href="#">ABOUT WEB</a></li>
-    <li><a href="#">CONTACT</a></li>
-  </ul>
-</div>
-<div class="body">body
-  <div class="left">left</div>
-  <div class="home">home</div>
-  <div class="right">right</div>
-</div>
-<div class="footer">footer</div>
-  </body>
+  <div class="horizontalmenu">
+    <ul class="first">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Sport</a></li>
+      <li><a href="#">Reel</a></li>
+      <li><a href="#">Worklife</a></li>
+      <li><a href="#">Trevel</a></li>
+      <li><a href="#">Future</a></li>
+      <li><a href="#">Culture</a></li>
+      <li><a href="#">TV</a></li>
+      <li><a href="#">Weather</a></li>
+      <li><a href="#">Sounds</a></li>
+
+    </ul>
+
+
+    <ul class="search">
+
+      <li><a href="#">Search</a></li>
+    </ul>
+
+    <ul class="signin">
+      <li><a href="#">Sing in</a></li>
+      <li><a href="#">Registration</a></li>
+
+    </ul>
+  </div>
+  <div class="body">
+
+    <div class="left">1</div>
+    <div class="home">2</div>
+    <div class="right">3</div>
+
+  </div>
+  <div class="footer">footer</div>
+</body>
+
 </html>
