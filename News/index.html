@@ -4,6 +4,10 @@
 <head>
   <title>News</title>
   <style>
+    body {
+      background-color: gainsboro;
+    }
+
     .header {
       width: 1080px;
       margin: auto;
@@ -15,6 +19,7 @@
       height: 800px;
       width: 1080px;
       margin: auto;
+      background-color: white;
     }
 
     .left {
@@ -82,18 +87,35 @@
     }
 
     .footer {
-      height: 50px;
+      height: 120px;
       width: 1080px;
       margin: auto;
+      background-color: black;
+      color: white;
+    }
+
+    .resized-image {
+      width: 30px;
+      height: 30px;
+    }
+
+    .socialmedia {
+      border: none;
+      float: right;
+    }
+
+    footer {
+      text-align: center;
+      padding-top: 80px;
     }
   </style>
 </head>
 
 <body>
-  <div class="header">header</div>
+  <div class="header"></div>
   <div class="horizontalmenu">
     <ul class="first">
-      <li><a href="#">Home</a></li>
+      <li><a href="#">Weather</a></li>
       <li><a href="#">News</a></li>
       <li><a href="#">Sport</a></li>
       <li><a href="#">Reel</a></li>
@@ -114,11 +136,21 @@
     </ul>
   </div>
   <div class="body">
-    <div class="left">1</div>
-    <div class="home">2</div>
-    <div class="right">3</div>
+    <div class="left"></div>
+    <div class="home"></div>
+    <div class="right"></div>
   </div>
-  <div class="footer">footer</div>
+  <div class="footer">
+    <div class="socialmedia">
+      <h5>You can follow us here!</h5>
+      <a href="#"><img src="Facebook.png" class="resized-image" alt="facebook"></a>
+      <a href="#"><img src="instagram.png" class="resized-image" alt="instagram"></a>
+      <a href="#"><img src="twitter.png" class="resized-image" alt="twitter"></a>
+    </div>
+    <footer>
+      <p>&copy; 2023 Your Website. All rights reserved.</p>
+    </footer>
+  </div>
 </body>
 
 </html>
