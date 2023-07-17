@@ -1,22 +1,29 @@
 body {
   background-color: gainsboro;
+  margin-top: 0;
+  margin-bottom: 0;
 }
+
 .header {
   width: 1080px;
   margin: auto;
   height: 152px;
   background-image: url(cover.jpg);
 }
+
 .horizontalmenu {
   background-color: black;
   height: 60px;
   width: 1080px;
   margin: auto;
-  
+
 }
+
 div {
-  border: 1px solid black;
+  border: hidden;
   margin: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+
 }
 
 li {
@@ -36,13 +43,13 @@ a:hover {
 
 .menu {
   float: left;
-  padding-left:5px;
-  
+  padding-left: 5px;
+
 }
 
 .signin {
   float: left;
- padding-left:15px;
+  padding-left: 15px;
 }
 
 .search-form {
@@ -50,17 +57,21 @@ a:hover {
   padding-top: 20px;
   padding-left: 20px;
 }
+
 .search-input {
-  width: 150px; /* Adjust the width as needed */
+  width: 150px;
+  /* Adjust the width as needed */
   height: 22px;
 }
+
 .body {
   height: 800px;
   width: 1080px;
   margin: auto;
   background-color: white;
-  
+
 }
+
 .footer {
   height: 190px;
   width: 1080px;
@@ -83,6 +94,7 @@ footer {
   text-align: center;
   padding-top: 150px;
 }
+
 .terms {
-  float:left;
+  float: left;
 }
