@@ -2,6 +2,30 @@
 <head>
   <title>Sign in</title>
   <link rel="stylesheet" href="/News/style.css">
+  <style>
+    .body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+    }
+    form {
+      border-left: 1px solid rgba(0, 0, 0, 0.168);
+      border-top-right-radius: 20px;
+      box-shadow: 10px 2px 4px rgba(0, 0, 0, 0.4);
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-bottom: 5px;
+      
+    }
+    .standart{
+      color:black;
+    }
+  .standart:hover {
+    border-bottom: 1px solid black;
+    
+  }
+  </style>
 </head>
 <body>
   <div class="header"></div>
@@ -28,7 +52,23 @@
     </ul>
   </div>
   <div class="body">
-    sign in
+    
+      
+      <form action="login">
+        <h3>ACCOUNT LOGIN</h3><br>
+        <label for="email">USERNAME/EMAIL:</label><br>
+        <input type="email" id="email" name="email" value=""><br><br>
+        <label for="password">PASSWORD:</label><br>
+        <input type="password" id="password" name="password" value=""><br><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Remember">
+        <label for="vehicle1">Remember me</label><br><br>
+        <a href="#" class="standart">Forgot Username/Password?</a><br><br>
+        <input type="submit" value="Submit"><br><br>
+        
+        
+
+      </form> 
+  
   </div>
   <div class="footer">
     <div class="socialmedia">
