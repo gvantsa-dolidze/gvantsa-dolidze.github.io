@@ -1,16 +1,29 @@
 <html lang="en">
+
 <head>
   <title>Registration</title>
   <link rel="stylesheet" href="/News/style.css">
   <style>
-  .body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
-  }
+    }
+
+    .signup {
+      margin-bottom:50px;
+      border-left: 1px solid lightgray;
+      border-top-right-radius: 20px;
+      box-shadow:15px 5px 4px rgba(0, 0, 0, 0.4);
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 100px;
+      padding-right: 100px;
+    }
   </style>
 </head>
+
 <body>
   <div class="header"></div>
   <div class="horizontalmenu">
@@ -36,18 +49,18 @@
     </ul>
   </div>
   <div class="body">
-    <form action="login">
+    <form action="signup" class="signup">
       <h3>SING UP</h3><br>
-      
+
       <label for="fname">First name:</label><br>
       <input type="text" id="fname" name="fname" value=""><br><br>
-      
+
       <label for="lname">Last name:</label><br>
       <input type="text" id="lname" name="lname" value=""><br><br>
-      
+
       <label for="email">Email</label><br>
       <input type="email" id="email" name="email" value=""><br><br>
-      
+
       <label for="tel">Nubmer:</label><br>
       <input type="tel" id="tel" name="tel" value=""><br><br>
 
@@ -59,8 +72,8 @@
 
       <input type="checkbox" id="vehicle1" name="vehicle1" value="Remember">
       <label for="vehicle1">I accept the terms of use and privacy policy</label><br><br>
-      
-      
+
+
       <input type="submit" value="Submit"><br><br>
 
 
@@ -90,4 +103,5 @@
   </div>
   </div>
 </body>
+
 </html>
