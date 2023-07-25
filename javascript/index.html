@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="/javascript/660270.png" type="image/png">
+    <title>JavaScript</title>
+<style>
+  h1{
+    text-align: center;
+  }
+div{
+  border: 1px solid black;
+  padding:20px;
+  margin:20px;
+}
+i{
+  padding:5px;
+  background-color: bisque;
+}
+</style>
+  </head>
+<body>
+  <h1>JavaScript</h1>
+<div>
+<h2>1. JavaScript Can Change HTML Content</h2>
+<p>
+One of many JavaScript HTML methods is <b>getElementById()</b>.<br>
+The example below "finds" an HTML element <b>(with id="demo")</b>,<br>
+and changes the element content <b>(innerHTML) to "Hello Gvantsa!"</b><br><br>
+<i>JavaScript accepts both double and single quotes.</i><br><br>
+<pre>Example:
+document.getElementById('demo').innerHTML = 'Hello world!';
+document.getElementById("demo").innerHTML = "Hello world!";</pre></p>
+<p id="demo">Hello world!</p>
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello Gvantsa!"'>Click Me!</button>
+</div>
+<div>
+<h2>2. JavaScript Can Change HTML Attribute Values</h2>
+<p>In this example JavaScript changes the value of the 
+  <b>src</b> (source) attribute of an  <b>img</b>  tag:
+</p>
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+</div>
+<div>
+  <h2>3. JavaScript Can Change HTML Styles (CSS)</h2>
+<p>Changing the style of an HTML element, is a variant of changing an HTML attribute:</p>
+<p id="demo.1">change the style</p>
+<button type="button" onclick="document.getElementById('demo.1').style.fontSize='35px'">Click Me!</button>
+</div>
+<div>
+  <h2>4. JavaScript Can Hide HTML Elements</h2>
+  <p>Hiding HTML elements can be done by changing the display style:</p>
+  <p id="demo.2">Hide this!</p>
+
+<button type="button" onclick="document.getElementById('demo.2').style.display='none'">Click Me!</button>
+
+</div>
+<div>
+  <h2>5. JavaScript Can Show HTML Elements</h2>
+  <p>Showing hidden HTML elements can also be done by changing the display style:</p>
+  <p>JavaScript can show hidden HTML elements.</p>
+  <p id="demo.3" style="display:none">Hello JavaScript!</p>
+  <button type="button" onclick="document.getElementById('demo.3').style.display='block'">Click Me!</button>
+</div>
+<div>
+  <h2>6. The script Tag </h2>
+  <p>In HTML, JavaScript code is inserted between <b>script</b> and <b>/script</b> tags.</p>
+  <h3>Javascript in Body</h3>
+  <p id="demo.4"></p>
+  <script>
+    document.getElementById('demo.4').innerHTML='My first JavaScript';
+  </script>
+</div>
+</body>
+</html>
