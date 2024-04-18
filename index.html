@@ -1,32 +1,56 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <title>My Projects</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="icon.jpg" type="image/png">
-  <style>
-    body {
-      background-color: rgb(94, 148, 148);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-      margin: 0;
-      padding: 0;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
+  <title>My Projects</title>
 </head>
 
 <body>
-  <header>
-    <!-- <h1> My Projects</h1> -->
-    <!-- <nav>
-      <ul>
-        <li><a href="./w3schools/">w3schools</a></li>
-        <li><a href="./registration-form/">Registration form</a></li>
-        <li><a href="./colouring-pages/">Coloring Pages</a></li>
-        <li><a href="./News/">BREAKING NEWS</a></li>
-      </ul>
-    </nav> -->
-  </header>
+  <main>
+    <header>
+      <nav>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </nav>
+    </header>
+    <section>
+      <div class="about" id="about">
+        <h1>Hey I am Gvantsa</h1>
+        <p>a web developer</p>
+      </div>
+      <div class="portfolio" id="portfolio">
+        <h2>These are my projects</h2>
+        <div class="grid-container">
+          <div class="w3"><a href="./w3schools/"><span>w3schools</span></a></div>
+          <div class="form"><a href="./registration-form/"><span>Registration form</span></a></div>
+          <div class="coloring"><a href="./colouring-pages/"><span>Coloring Pages</span></a></div>
+          <div class="news"><a href="./News/"><span>Breaking News</span></a></div>
+
+          <div class=""><a href="#"><span>Coming soon</span></a></div>
+          <div class=""><a href="#"><span>coming Soon</span></a></div>
+          <div class=""><a href="#"><span>Coming Soon</span></a></div>
+          <div class=""><a href="#"><span>Coming Soon</span></a></div>
+        </div>
+      </div>
+    </section>
+    <footer class="contact" id="contact">
+      <h2>Let's work together...</h2>
+       <section class="social-media">
+          <a href="#">facebook</a>
+          <a href="#">GitHub</a>
+          <a href="#">twitter</a>
+          <a href="#">Send a mail</a>
+          <a href="#">Call me</a>
+        </section>
+        
+         <span>&copy; 2024 Gvantsa's portfolio. All rights reserved.</span>
+    </footer>
+  </main>
 </body>
 
 </html>
