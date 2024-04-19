@@ -13,6 +13,7 @@
       width: 100%;
       margin: auto;
       color: #FFFFFF;
+      
   }
 
   header {
@@ -99,7 +100,7 @@
   .social-media {
       display: flex;
       gap: 50px;
-      padding:30px 0px;
+      padding:50px 20px;
       
   }
 
@@ -109,8 +110,11 @@
       grid-template-columns: auto auto auto;
       justify-items: center;
       gap: 20px;
-      padding: 50px 20px;
-     
+      padding: 50px 30px;  
+  }
+  .social-media {
+   display: flex;
+   gap:15px;
   }
   }
  
