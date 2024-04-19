@@ -6,9 +6,6 @@
       padding: 0;
       margin: 0;
   }
-body {
-    /* i need to hide scroll space */
-}
   main {
       background-color: rgb(94, 148, 148);
       max-width: 1920px;
