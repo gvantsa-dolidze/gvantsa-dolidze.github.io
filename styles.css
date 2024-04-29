@@ -22,7 +22,7 @@
       width: 100%;
       height: 80px;
       position: fixed;
-      /* z-index: 1; */
+      z-index: 1;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -63,14 +63,14 @@
       text-align: center;
   }
 
-  .grid-container {
+  /* .grid-container {
       display: grid;
       grid-template-columns: auto auto auto auto;
       justify-items: center;
       gap: 20px;
       padding: 50px 20px;
 
-  }
+  } */
 
   a {
       color: #FFFFFF;
@@ -80,7 +80,7 @@
       transition: all 0.5s;
   }
 
-  .grid-container div {
+  /* .grid-container div {
       white-space: nowrap;
       border: 1px solid #FFFFFF;
       width: 100%;
@@ -89,11 +89,16 @@
       border-radius: 10px;
       padding: 10px;
       box-sizing: border-box;
-  }
-
-  .grid-container div a:hover {
+  } */
+.card {
+    background-color: transparent;
+    border: none;
+    color:#FFFFFF;
+}
+  /* .grid-container div a:hover {
       color: rgb(177, 125, 216);
-  }
+      
+  } */
 
   footer {
       background-color: rgba(65, 64, 64);
@@ -111,13 +116,13 @@
   }
 
   @media (max-width: 920px) {
-      .grid-container {
+      /* .grid-container {
           display: grid;
           grid-template-columns: auto auto auto;
           justify-items: center;
           gap: 20px;
           padding: 50px 30px;
-      }
+      } */
 
       .social-media {
           display: flex;
@@ -126,13 +131,13 @@
   }
 
   @media (max-width: 670px) {
-      .grid-container {
+      /* .grid-container {
           display: grid;
           grid-template-columns: auto auto;
           justify-items: center;
           gap: 20px;
           padding: 50px 20px;
-      }
+      } */
 
       .social-media {
           display: grid;
@@ -141,14 +146,14 @@
   }
 
   @media (max-width: 460px) {
-      .grid-container {
+      /* .grid-container {
           display: grid;
           grid-template-columns: auto;
           justify-items: center;
           gap: 20px;
           padding: 50px 20px;
 
-      }
+      } */
 
       nav {
           display: flex;
