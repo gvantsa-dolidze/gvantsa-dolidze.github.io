@@ -48,7 +48,8 @@
   }
 
   .about {
-      height: 500px;
+    padding-top: 130px;
+      /* height: 500px; */
       background-color: rgb(213, 175, 242);
   }
 
