@@ -1,0 +1,102 @@
+main {
+    margin: auto;
+    width: 100%;
+}
+
+.first-section {
+    background-color: #F9E6F0;
+    display: flex;
+    justify-content: center;
+    padding: 170px 0px;
+}
+
+.about-pablo {
+    display: flex;
+    max-width: 780px;
+    width: 100%;
+    gap: 70px;
+}
+
+.img-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.img-of-pablo {
+    width: 195px;
+    height: 195px;
+    border: 1.5px solid #2D2D2D;
+}
+
+.h5 {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-container {
+    max-width: 880px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 0px;
+}
+
+.second-section p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    padding-bottom: 60px;
+}
+
+.green {
+    background-color: #009379;
+    padding: 5px 0px 5px 0px;
+    box-sizing: border-box;
+    color: #F6DCE9;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+
+@media (max-width:1130px) {
+
+    .about-pablo,
+    .second-section {
+        padding-left: 20px;
+        padding-right: 20px;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width:375px) {
+    .about-pablo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px 30px 70px 30px;
+    }
+
+    .second-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 30px 70px 30px;
+
+    }
+
+}

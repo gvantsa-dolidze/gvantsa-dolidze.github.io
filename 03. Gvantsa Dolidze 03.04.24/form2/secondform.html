@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Your Title</title>
+  <link rel="stylesheet" type="text/css" href="./secondform.css">
+
+</head>
+
+<body>
+  <div class="form-box">
+
+    <form class="form">
+      <div class="title-x-box">
+        <h3>Edit <bold class="red">payment</bold> method</h3>
+        <div class="x-btn">
+          <a href="#"><span>&#10005;</span></a>
+        </div>
+      </div>
+      <div class="input-box">
+        <div class="owner-name">
+          <label for="name">Name On Card</label>
+          <input type="text" id="name" name="name" placeholder="John Doe" />
+        </div>
+        <div class="card-number">
+          <label for="card-number">Card Number</label>
+          <input type="number" id="card-namber" name="cardnumber" placeholder="4242 4242 4242 4242" />
+        </div>
+        <div class="exp-date-and-cvc">
+          <div class="exp-date">
+            <label for="date">Expiration Date</label>
+            <input type="datetime" id="date" name="date" placeholder="04 / 05" />
+          </div>
+          <div class="cvc">
+            <label for="">CVC</label>
+            <input type="password" id="cvc" name="cvc" placeholder="..." maxlength="3" />
+          </div>
+
+        </div>
+        <div class="region">
+          <label for="option">Country / Region</label>
+          <select id="option" name="select" type="select">
+            <option>Georgia</option>
+            <option>USA</option>
+            <option>Latvia</option>
+            <option>Litva</option>
+          </select>
+
+        </div>
+        <div class="zip">
+          <label for="zip">ZIP</label>
+          <input type="text" id="zip" name="zip" placeholder=" H1V 2X9" />
+        </div>
+      </div>
+      <div class="button-box">
+        <button class="cencel">Cencel</button>
+        <button class="update">Update</button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

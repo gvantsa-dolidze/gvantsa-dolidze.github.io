@@ -1,0 +1,127 @@
+body {
+  background-color: rgb(199, 193, 193);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  color: #030102;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* main div and form  */
+.main {
+  background-color: white;
+  padding: 16px 30px 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Logo and title */
+.logo-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 4px;
+}
+.logo-img {
+  width: 22.5%;
+}
+.logo-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23.44px;
+  width: 70px;
+  height: 23px;
+  margin: 0;
+  padding: 0;
+}
+
+/* styles for input box and input */
+.input-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 69px;
+}
+.input {
+  padding: 10px 12px;
+  background-color: #e2e6ee;
+  border-radius: 10px;
+  border: none;
+  color: #9ea8bd;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* css for date and id */
+.date-id-box {
+  display: flex;
+  gap: 12px;
+  height: 69px;
+}
+.date-box,
+.id-box {
+  width: 144px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.input-id,
+.input-date {
+  height: 19px;
+  border: none;
+  background-color: #e2e6ee;
+  border-radius: 10px;
+  padding: 10px 12px;
+  color: #9ea8bd;
+  font-weight: 400;
+  font-size: 16px;
+}
+.input-date {
+  cursor: pointer;
+}
+
+/* Select */
+.select-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 69px;
+}
+.select {
+  padding: 10px 12px;
+  background-color: #e2e6ee;
+  border-radius: 10px;
+  border: none;
+  color: #9ea8bd;
+  font-weight: 400;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* button */
+.submit-btn {
+  padding: 12px 24px;
+  border-radius: 10px;
+  border: none;
+  height: 40px;
+  background-color: #288fb4;
+  color: white;
+  width: 100%;
+  cursor: pointer;
+  gap: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.submit-btn:hover {
+  background-color: #2980b9;
+}

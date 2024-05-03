@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #bfc8d2;
+  position: sticky;
+  display: flex;
+  justify-content: space-around;
+}
+.form-box {
+  background-color: #ffffff;
+  width: 484px;
+  border-radius: 13px;
+  border-color: #dfe3e8;
+  border: 1px solid;
+  position: sticky;
+  top: -297px;
+  left: -242px;
+  display: flex;
+}
+.red {
+  color: red;
+}
+
+.form {
+  padding: 28px 32px 28px 32px;
+  width: 100%;
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.title-x-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.x-btn a {
+  text-decoration: none;
+  font-weight: bolder;
+}
+a span {
+  display: flex;
+  width: 16px;
+  height: 16px;
+}
+.input-box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+input,
+select {
+  display: flex;
+  border: 1px solid #e2e2e2;
+  border-radius: 6px;
+  padding: 4px 3px 4px 12px;
+  gap: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+select {
+  cursor: pointer;
+}
+label {
+  display: flex;
+  gap: 4px;
+  color: #6b7888;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.owner-name,
+.card-number,
+.region,
+.zip,
+.exp-date,
+.cvc {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.exp-date,
+.cvc {
+  width: 202px;
+  margin-right: 0px;
+  padding-right: 0;
+  gap: 4px;
+  display: flex;
+}
+.exp-date-and-cvc {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.button-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+.cencel {
+  width: 85px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #bfc8d2;
+  gap: 8px;
+  padding: 8px 16px 8px 16px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-around;
+}
+.update {
+  width: 327px;
+  height: 40px;
+  border-radius: 4px;
+  padding: 8px 16px 8px 16px;
+  background-color: #0a0b0d;
+  color: #f8f9fa;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  border: none;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-around;
+}
+.cencel:hover,
+.update:hover {
+  background-color: slategray;
+}

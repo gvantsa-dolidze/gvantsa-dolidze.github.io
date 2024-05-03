@@ -1,0 +1,97 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #154360;
+  position: sticky;
+  color: #555555;
+}
+
+.form-box {
+  width: 825px;
+  height: 799px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.logo-img {
+  width: 274px;
+  height: 106px;
+}
+h3 {
+  margin-top: 0;
+  padding-top: 0;
+  width: 211px;
+  height: 24px;
+  color: #555555;
+  font-weight: 600;
+  font-size: 16.16px;
+  line-height: 24.23px;
+  display: flex;
+  justify-content: center;
+}
+.form-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form {
+  width: 725px;
+  height: 485px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.name,
+.email,
+.Password,
+.Company-name,
+.last-name,
+.mob-no,
+.Password,
+.empty-div {
+  display: flex;
+  flex-direction: column;
+  width: 337px;
+  height: 85px;
+  gap: 8px;
+}
+
+label {
+  display: flex;
+}
+
+input {
+  display: flex;
+  border: none;
+  background-color: #eeeeee;
+  border-radius: 8.08px;
+  width: 336px;
+  height: 51px;
+}
+.btn-div {
+  display: flex;
+  justify-content: flex-end;
+}
+button {
+  width: 210px;
+  height: 50.49px;
+  background-color: #1e2772;
+  color: white;
+  border-radius: 8.08px;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgba(128, 0, 128, 0.71);
+}

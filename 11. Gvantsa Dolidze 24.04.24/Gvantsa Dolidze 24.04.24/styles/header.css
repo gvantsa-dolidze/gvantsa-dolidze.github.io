@@ -1,0 +1,59 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: #ffffff;
+}
+
+.header-div {
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.header-li:hover {
+    color: crimson;
+}
+
+.burger {
+    border: none;
+    width: 25px;
+    height: 23px;
+    display: none;
+}
+
+@media (max-width:375px) {
+
+    .header-ul {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .my-links {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .my-links li {
+        display: block;
+    }
+
+    #myLinks {
+        display: none;
+    }
+}

@@ -1,0 +1,125 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Noto Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  color: rgba(0, 0, 0, 1);
+}
+
+section {
+  background-color: rgba(255, 255, 255, 1);
+  width: 1440px;
+  margin: auto;
+  display: grid;
+  justify-items: center;
+  gap: 50px;
+  box-sizing: border-box;
+}
+
+.title {
+  display: grid;
+  justify-items: center;
+}
+
+h1,
+h3,
+h2,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 65.38px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 35.41px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32.69px;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.grid {
+  display: grid;
+  border: 2px solid rgba(77, 76, 125, 1);
+  border-radius: 10px;
+  padding: 20px;
+  height: 650px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.grid-1 {
+  grid-column: 1/4;
+}
+
+.grid-2 {
+  grid-column: 4/7;
+}
+
+.grid-3 {
+  grid-column: 7/10;
+}
+
+.grid-4 {
+  grid-column: 10/13;
+}
+
+.list {
+  position: absolute;
+  top: 150px;
+  padding: 10px;
+}
+
+li {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27.24px;
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+button {
+  width: 238px;
+  height: 60px;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid rgba(130, 115, 151, 1);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27.24px;
+  color: rgba(130, 115, 151, 1);
+  position: relative;
+  top: 200px;
+}
+
+.grid-1:hover,
+.grid-2:hover,
+.grid-3:hover,
+.grid-4:hover {
+  background-color: rgba(230, 230, 230, 1);
+}
+
+.grid-1:hover button,
+.grid-2:hover button,
+.grid-3:hover button,
+.grid-4:hover button {
+  background-color: rgb(255, 254, 254);
+  cursor: pointer;
+}

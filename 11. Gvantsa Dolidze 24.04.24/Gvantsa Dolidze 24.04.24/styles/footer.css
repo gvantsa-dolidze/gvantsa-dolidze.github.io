@@ -1,0 +1,118 @@
+footer {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    box-sizing: border-box;
+    border-top: 2px solid #00000033;
+}
+
+.footer-content {
+    max-width: 1080px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.left-contact {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    width: 100%;
+    gap: 60px;
+}
+
+.left-contact h5 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.footer-ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.right-input {
+    display: flex;
+    flex-direction: column;
+    max-width: 530px;
+    width: 100%;
+    gap: 40px;
+}
+
+input {
+    width: 100%;
+    height: 69px;
+    box-sizing: border-box;
+    background-color: #F3F3F3;
+    border: none;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #2d2d2d;
+    padding: 21px 30px 21px 30px;
+}
+
+textarea {
+    width: 100%;
+    height: 231px;
+    box-sizing: border-box;
+    background-color: #F3F3F3;
+    border: none;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #2d2d2d;
+    padding: 21px 30px 21px 30px;
+}
+
+button {
+    width: 235px;
+    height: 80px;
+    padding: 25px 82px 25px 82px;
+    background-color: #2D2D2D;
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+button:hover {
+    background-color: #aba7a7;
+    color: #2D2D2D;
+}
+
+
+@media (max-width:1130px) {
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 30px 70px 30px;
+    }
+
+    .left-contact {
+        align-items: flex-start;
+
+    }
+}
+
+@media (max-width:375px) {
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 30px 70px 30px;
+
+    }
+
+}

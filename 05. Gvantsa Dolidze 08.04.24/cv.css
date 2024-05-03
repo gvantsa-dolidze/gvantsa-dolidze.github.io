@@ -1,0 +1,119 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  font-family: "Manrope", sans-serif;
+}
+
+.main-container {
+  display: flex;
+  width: 1604px;
+  height: 1239px;
+  background-color: rgba(255, 255, 255, 1);
+  margin: auto;
+}
+/* LEFT SIDE CSS*/
+.left-side {
+  width: 520px;
+  background-color: #f1f2f4;
+}
+.left-side-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 40px;
+  gap: 60px;
+}
+.sircle {
+  width: 370px;
+  height: 370px;
+  border: 5px solid #ffffff;
+  border-radius: 100%;
+  background-color: rgba(227, 228, 231, 1);
+  box-shadow: 10px 10px 100px gray;
+  margin-top: 50px;
+}
+.left-side-paragraph {
+  text-align: center;
+  color: rgba(142, 142, 142, 1);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.left-side-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.left-side-ul li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(90, 96, 107, 1);
+}
+.left-side-ul li div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.bold {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(17, 17, 17, 1);
+}
+
+/* RIGHT SIDE CSS */
+.full-content-right {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 72px;
+}
+.right-side-paraghaph,
+.right-side-ul li {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(102, 101, 101, 1);
+}
+h1 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  color: rgba(63, 64, 81, 1);
+}
+h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(17, 17, 17, 1);
+}
+.right-side-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  list-style-position: inside;
+  padding: 0;
+  margin: 0;
+}
+.right-side-ul li {
+  list-style-type: disc;
+}
+.right-main-list-div {
+  display: flex;
+  gap: 50px;
+}
+.right-list-with-title {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

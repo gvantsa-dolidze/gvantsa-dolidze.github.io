@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Form</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+  <div class="main">
+    <!-- FORM -->
+    <form class="form">
+      <!-- LOGO -->
+      <div class="logo-div">
+        <img src="./frompigma.png" alt="logo" class="logo-img">
+        <h3 class="logo-title">Sign Up</h3>
+      </div>
+      <!-- Input for Name -->
+      <div class="input-box">
+        <label for="input-name">First Name</label>
+        <input type="text" placeholder="Enter First Name" class="input" id="input-name" />
+      </div>
+      <!-- Input for LastName -->
+      <div class="input-box">
+        <label for="input-lastname">Last Name</label>
+        <input type="text" placeholder="Enter Last Name" class="input" id="input-lastname" />
+      </div>
+      <!--Input for date and id-->
+      <div class="date-id-box">
+        <div class="date-box">
+          <label for="input-date">Date of Birth</label>
+          <input type="date" class="input-date" name="date" placeholder="DD/MM/YYYY" id="input-date" />
+        </div>
+        <div class="id-box">
+          <label for="input-id">ID</label>
+          <input class="input-id" type="text" placeholder="..." id="input-id" />
+        </div>
+      </div>
+      <!-- Input for Phone Number -->
+      <div class="input-box">
+        <label for="input-number">Phone Number</label>
+        <input type="number" placeholder="Enter Phone Number" class="input" id="input-number" />
+      </div>
+      <!-- Select-box for choose Country -->
+      <div class="select-div">
+        <label for="select-country">Sitizenship</label>
+        <select class="select" id="select-country">
+          <option disabled selected class="disable">Select Country</option>
+          <option value="Australia">Australia</option>
+          <option value="Georgia">Georgia</option>
+          <option value="USA">USA</option>
+          <option value="Austria">Austria</option>
+        </select>
+      </div>
+      <!-- Button for submitting the form -->
+      <div class="button">
+        <button class="submit-btn" id="submit-btn">Submit</button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
