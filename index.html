@@ -22,12 +22,28 @@
 <body>
   <main>
     <!-- Header -->
-    <header>
-      <nav>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
+    <header class="">
+      <nav class="container gap-4 p-3 navbar navbar-expand-md">
+
+        <img src="img/header-logo.png" alt="logo" class="header-logo" />
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <i class="bi bi-list"></i>
+        </button>
+
+        <div class="collapse navbar-collapse gap-4 justify-content-between" id="collapsibleNavbar">
+          <div class="d-flex gap-4">
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <form class="d-flex gap-2">
+            <input class="form-control" type="text" placeholder="Search by technology">
+            <button class="btn btn-secondary" type="button">Search</button>
+          </form>
+        </div>
+        
       </nav>
     </header>
     <!-- Main Section -->
@@ -71,17 +87,16 @@
       <div class="container" id="skills">
 
         <h2 class="pt-4">Skills</h2>
-        <div class="skills pb-4 pt-1">
+        <div class="skills py-4 px-3">
+          <img class="icon" src="/img/html-icon.png" alt="html" />
+          <img class="icon" src="/img/css-icon.png" alt="CSS" />
+          <img class="icon" src="img/bootstrap-icon.png" alt="bootstrap" />
+          <img class="icon" src="img/js-icon.png" alt="js" />
+          <img class="icon" src="img/react-icon.png" alt="react" />
+          <img class="icon" src="img/git-icon.png" alt="git" />
+          <img class="icon" src="img/github-icon.png" alt="github" />
+          <img class="icon" src="img/figma-icon.png" alt="figma" />
 
-            <img class="icon" src="/img/html-icon.png" alt="html"/>
-            <img class="icon" src="/img/css-icon.png" alt="CSS"/>
-            <img class="icon" src="img/bootstrap-icon.png" alt="bootstrap"/>
-            <img class="icon" src="img/js-icon.png" alt="js"/>
-            <img class="icon" src="img/react-icon.png" alt="react"/>
-            <img class="icon" src="img/git-icon.png" alt="git"/>
-            <img class="icon" src="img/github-icon.png" alt="github"/>
-            <img class="icon" src="img/figma-icon.png" alt="figma"/>
-          
         </div>
         <hr>
       </div>
