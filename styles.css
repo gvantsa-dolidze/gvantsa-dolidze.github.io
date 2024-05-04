@@ -64,7 +64,10 @@ main, .about {
   h2 {
       text-align: center;
   }
-
+.icon {
+    width:70px;
+    height:70px;
+}
   a {
       color: #FFFFFF;
       text-decoration: none;
