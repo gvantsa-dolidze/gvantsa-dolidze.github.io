@@ -1,5 +1,5 @@
   body {
-    background-image: linear-gradient(to top, #86377b 20%, #27273c 80%);
+    background-image: linear-gradient(to top, #371232 20%, #27273c 80%);
   }
   nav,
   li,
@@ -10,12 +10,8 @@
       margin: 0;
       font-family: "Open Sans", sans-serif;
   }
-/* main, .about {
-    background-color: #7E998A; 
-} */
   main {
       max-width: 1920px;
-      /* min-width: 380px; */
       width: 100%;
       margin: auto;
       color: #ffffff;
@@ -91,7 +87,6 @@ i {
 }
 
   footer {
-      /* background-color: rgba(65, 64, 64); */
       display: grid;
       align-items: center;
       justify-items: center;
