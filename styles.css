@@ -1,3 +1,6 @@
+  body {
+    background-image: linear-gradient(to top, #86377b 20%, #27273c 80%);
+  }
   nav,
   li,
   h1,
@@ -7,9 +10,9 @@
       margin: 0;
       font-family: "Open Sans", sans-serif;
   }
-main, .about {
-    background-color: #7E998A;
-}
+/* main, .about {
+    background-color: #7E998A; 
+} */
   main {
       max-width: 1920px;
       /* min-width: 380px; */
@@ -19,7 +22,7 @@ main, .about {
   }
 
   header {
-      background-color: rgba(65, 64, 64);
+      background-color: #27273c;
       max-width: 1920px;
       width:100%;
       position: fixed;
@@ -41,9 +44,10 @@ main, .about {
   }
 
   .btn {
-    background-color: rgba(65, 64, 64);
+    background-color: #27273c;
     font-size: 16px;
     font-weight: 500;
+    border:none;
 }
   .about {
       padding-top: 130px;
@@ -87,7 +91,7 @@ i {
 }
 
   footer {
-      background-color: rgba(65, 64, 64);
+      /* background-color: rgba(65, 64, 64); */
       display: grid;
       align-items: center;
       justify-items: center;
