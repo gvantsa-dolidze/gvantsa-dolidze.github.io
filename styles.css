@@ -1,6 +1,7 @@
   body {
-    background-image: linear-gradient(to top, #371232 20%, #27273c 80%);
+      background-image: linear-gradient(to top, #371232 20%, #53537a 80%);
   }
+
   nav,
   li,
   h1,
@@ -10,6 +11,7 @@
       margin: 0;
       font-family: "Open Sans", sans-serif;
   }
+
   main {
       max-width: 1920px;
       width: 100%;
@@ -18,11 +20,27 @@
   }
 
   header {
-      background-color: #27273c;
+      background-color: #53537a;
       max-width: 1920px;
-      width:100%;
+      width: 100%;
       position: fixed;
       z-index: 1;
+      border-bottom: 1px solid #371232;
+  }
+
+  input {
+      outline: none;
+      max-width: 100%;
+      width: 200px;
+      padding-left:10px;
+      padding-right: 10px;
+      padding-top:5px;
+      padding-bottom: 5px;
+      border-radius: 10px;
+      border: none;
+      font-size: 16px;
+      color:#371232;
+      box-sizing: border-box;
   }
 
   li {
@@ -34,39 +52,40 @@
       color: #FFFFFF;
       font-size: 25px;
   }
-
-  a:hover {
-      color: #7E998A;
+  .btn {
+      background-color: #27273c;
+      font-size: 16px;
+      font-weight: 500;
+      border: none;
   }
 
-  .btn {
-    background-color: #27273c;
-    font-size: 16px;
-    font-weight: 500;
-    border:none;
-}
   .about {
       padding-top: 130px;
-      color:#ffffff;
+      color: #ffffff;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
   }
+hr {
+    color:#371232;
+}
   .paragraph {
-    font-size: 20px;
+      font-size: 20px;
   }
 
   h2 {
       text-align: center;
   }
-.icon {
-width:7%;
-}
-.header-logo {
-    width:50px;
-    height:50px; 
-}
+
+  .icon {
+      width: 7%;
+  }
+
+  .header-logo {
+      width: 50px;
+      height: 50px;
+  }
 
   a {
       color: #FFFFFF;
@@ -82,11 +101,12 @@ width:7%;
       color: #FFFFFF;
   }
 
-i {
-    color:#FFFFFF;
-}
+  i {
+      color: #FFFFFF;
+  }
 
   footer {
+    border-top:1px solid#53537a;
       display: grid;
       align-items: center;
       justify-items: center;
@@ -97,7 +117,8 @@ i {
       display: flex;
       gap: 50px;
       padding: 50px 20px;
-      justify-content: center;;
+      justify-content: center;
+      ;
       align-items: center;
       justify-items: center;
 
@@ -113,10 +134,12 @@ i {
 
   @media (max-width: 670px) {
 
-    nav a {
-        font-size: 16px;
-    }
-      .social-media, .skills {
+      nav a {
+          font-size: 16px;
+      }
+
+      .social-media,
+      .skills {
           display: grid;
           gap: 5px;
       }
