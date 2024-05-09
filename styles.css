@@ -48,7 +48,10 @@ footer a:hover {
       box-sizing: border-box;
       height:40px;
   }
-
+  ::placeholder {
+    color:#371232;
+    opacity: 1; /* Firefox */
+  }
   li {
       list-style-type: none;
   }
