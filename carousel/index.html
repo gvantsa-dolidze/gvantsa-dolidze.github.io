@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .slideshow-container {
+            position: relative;
+            max-width: 100%;
+            margin: auto;
+        }
+
+        .mySlides {
+            display: none;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .dot {
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active {
+            background-color: #717171;
+        }
+    </style>
+</head>
+<body>
+
+<div class="four">
+    <div> პროექტის პარტნიორები </div>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="/pictures/carousel/usaid.webp">
+            <img src="/pictures/carousel/space.webp">
+            <img src="/pictures/carousel/tineti.webp">
+        </div>
+        <div class="mySlides fade">
+            <img src="/pictures/carousel/tegeta.webp">
+            <img src="/pictures/carousel/spectre.webp">
+            <img src="/pictures/carousel/tbclizing.webp">
+        </div>
+        <div class="mySlides fade">
+            <img src="/pictures/carousel/UFC.webp">
+        </div>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+</div>
+
+<script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let i;
+        const slides = document.querySelectorAll('.mySlides');
+        const dots = document.querySelectorAll('.dot');
+
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = 'none';
+        }
+
+        slideIndex++;
+
+        if (slideIndex > slides.length) {
+            slideIndex = 1;
+        }
+
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(' active', '');
+        }
+
+        slides[slideIndex - 1].style.display = 'block';
+        dots[slideIndex - 1].className += ' active';
+
+        setTimeout(showSlides, 2000); // Change slide every 2 seconds
+    }
+</script>
+
+</body>
+</html>
