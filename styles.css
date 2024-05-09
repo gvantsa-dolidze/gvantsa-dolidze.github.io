@@ -27,11 +27,16 @@
       z-index: 1;
       border-bottom: 1px solid #371232;
   }
-
+  header a:hover {
+    color:#371232;
+  }
+footer a:hover {
+    color:#53537a;
+}
   input {
       outline: none;
       max-width: 100%;
-      width: 200px;
+      width: 250px;
       padding-left:10px;
       padding-right: 10px;
       padding-top:5px;
