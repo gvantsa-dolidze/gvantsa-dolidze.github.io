@@ -132,6 +132,7 @@ footer {
 .codepen_logo {
   width: 20%;
 }
+
 @media (max-width: 920px) {
   .social-media {
     display: flex;
