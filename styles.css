@@ -109,6 +109,9 @@ a {
   border: none;
   color: #ffffff;
 }
+.card-img-top{
+  height:200px;
+}
 
 i {
   color: #ffffff;
